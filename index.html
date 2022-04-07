@@ -31,112 +31,56 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <p id="currentHour" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">5am</h1>
+      <section id="9" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">09:00</h1>
         <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr0"></button>
-      </section>
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">6am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr1"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">7am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr2"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">8am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr3"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">9am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr4"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">10am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr5"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">11am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr6"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">12pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr7"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">1pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr8"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">2pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr9"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">3pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr10"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">4pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr11"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">5pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr12"></button>
-      </section>
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">6pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr13"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">7pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr14"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">8pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr15"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">9pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr16"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">10pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr17"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">11pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr18"></button>
-      </section> <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">12pm</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr19"></button>
-      </section>
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">1am</h1>
-        <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr20"></button>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
       </section> 
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">2am</h1>
+      <section id="10"class="row time-block">
+        <h1 class="co l-2 col-sm-1 hour">10:00</h1>
         <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr21"></button>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
       </section> 
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">3am</h1>
+      <section id="11" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">11:00</h1>
         <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr22"></button>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
       </section> 
-      <section class="row time-block">
-        <h1 class="col-2 col-sm-1 hour">4am</h1>
+      <section id="12" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">12:00</h1>
         <textarea class="col-8 col-sm-10 task" ></textarea>
-        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" id="hr23"></button>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
+      </section> 
+      <section id="13" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">13:00</h1>
+        <textarea class="col-8 col-sm-10 task" ></textarea>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
+      </section> 
+      <section id="14" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">14:00</h1>
+        <textarea class="col-8 col-sm-10 task" ></textarea>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
+      </section> 
+      <section id="15" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">15:00</h1>
+        <textarea class="col-8 col-sm-10 task" ></textarea>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
+      </section> 
+      <section id="16" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">16:00</h1>
+        <textarea class="col-8 col-sm-10 task" ></textarea>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
+      </section> 
+      <section id="17" class="row time-block">
+        <h1 class="col-2 col-sm-1 hour">17:00</h1>
+        <textarea class="col-8 col-sm-10 task" ></textarea>
+        <button class="col-2 col-sm-1 btn btn-primary saveBtn far fa-save" ></button>
       </section>
+      
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
