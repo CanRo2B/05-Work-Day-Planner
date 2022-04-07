@@ -11,8 +11,8 @@ Input your tasks and click the "Save" icon.
 
 
 ## Links
-[website] ()
-[Github] ()
+- [website] (https://canro2b.github.io/05-Work-Day-Planner/)
+- [Github] (https://github.com/CanRo2B/05-Work-Day-Planner)
 
 ## Contact me
 Candace Robbins [email] (hofe36@hotmail.com)
