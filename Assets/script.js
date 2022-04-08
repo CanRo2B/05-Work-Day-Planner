@@ -20,7 +20,8 @@ $(".saveBtn").on("click", function() {
     var key = $(this).parent().attr("id");
     
    
-    // console.log(key, value)
+    console.log(key, value);
+
     localStorage.setItem(key, value);
     localStorage.getItem(key, value);
 })
@@ -55,15 +56,15 @@ animateTask();
 var interval = setInterval(animateTask, 15000);
 
 // $("").val(localStorage.getItem(""));
-$("#0 .task").val(localStorage.getItem("0"));
-$("#1 .task").val(localStorage.getItem("1"));
-$("#2 .task").val(localStorage.getItem("2"));
-$("#3 .task").val(localStorage.getItem("3"));
-$("#4 .task").val(localStorage.getItem("4"));
-$("#5 .task").val(localStorage.getItem("5"));
-$("#6 .task").val(localStorage.getItem("6"));
-$("#7 .task").val(localStorage.getItem("7"));
-$("#8 .task").val(localStorage.getItem("8"));
+$("#9 .task").val(localStorage.getItem("9"));
+$("#10 .task").val(localStorage.getItem("10"));
+$("#11 .task").val(localStorage.getItem("11"));
+$("#12 .task").val(localStorage.getItem("12"));
+$("#13 .task").val(localStorage.getItem("13"));
+$("#14 .task").val(localStorage.getItem("14"));
+$("#15 .task").val(localStorage.getItem("15"));
+$("#16 .task").val(localStorage.getItem("16"));
+$("#17 .task").val(localStorage.getItem("17"));
 
 // $("#0").children(".task").val(localStorage.getItem("0"));
 // $("#1").children(".task").val(localStorage.getItem("1"));
