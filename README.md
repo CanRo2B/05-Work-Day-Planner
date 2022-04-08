@@ -8,6 +8,7 @@ This project will be set to standard business hours from 9-5.  It includes time 
 Input your tasks and click the "Save" icon.
 
 ## Screenshot
+![Screenshot of Work Day Planner](./Assets/screencapture-file-Users-candacerobbins-Documents-UCF-Homework-05-Work-Day-Planner-index-html-2022-04-07-22_40_14.png)
 
 
 ## Links
