@@ -26,24 +26,27 @@ $(".saveBtn").on("click", function() {
 // Function to animate the planner
 function animateTask(){
 var currentHour = parseInt(moment().format("H"));
+console.log(currentHour)
 // Taking the time block to get the attributes and then use them for the conditional
 $(".time-block").each(function() {
 // create function to loop over time blocks
 var timeBlock = parseInt($(this).attr("id"));
-
+console.log(timeBlock)
 
 // conditional statement to check the hours and apply correct time animations
     if(timeBlock < currentHour) {
-        $(".task").addClass("past");
+        $(this).addClass("past");
+        console.log("past")
      } else 
         if (timeBlock === currentHour) {
-            $(".task").removeClass("past");
-            $(".task").addClass("present");
+            // $(this).removeClass("past");
+            $(this).addClass("present");
+            console.log(currentHour)
      } else 
            {
-            $(".task").removeClass("past");
-            $(".task").removeClass("present");
-            $(".task").addClass("future");
+            // $(this).removeClass("past");
+            // $(this).removeClass("present");
+            $(this).addClass("future");
          } 
      })
 }
